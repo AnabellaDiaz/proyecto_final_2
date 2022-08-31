@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+}
+h1 span{
+    color: #fb7eff;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 15px;
+}
+
+body {
+    background: white;
+    color: rgb(112, 112, 112);
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+
+header {
+    /* para que esté horizontal */
+    display: flex;
+    /* para que se ordenen en una columna para celular*/
+    /* flex-direction: column; */
+    /* para que se alinea cada div en cada punta */
+    justify-content: space-between;
+    align-items: center;
+    height: 60ox;
+    background-color: white;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 70px;
+    margin-right: 10px;
+}
+
+nav a {
+    /* para hacerlo en negrita */
+    font-weight: 600;
+    padding-right: 10px;
+    color: grey;
+}
+
+nav a:hover {
+    color: #fb7eff;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* empieza banner */
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(../assets/nosotros.png);
+    /* background-repeat: no-repeat; */
+    color: white;
+    height: 450px;
+}
+
+.banner span{
+    color: #fb7eff;
+}
+
+.excelencia{
+    height: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px;
+}
+
+.excelencia img{
+    width: 100px;
+    padding-bottom: 30px;
+}
+
+.destacados{
+    background-color: rgb(71, 71, 71);
+    color: #fb7eff;
+    height: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.destacado1{
+    height: 100%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    color: white;
+}
+
+.destacado1 img{
+    width: 100px;
+    padding-bottom: 15px;
+}
+
+.destacado2{
+    height: 100%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    color: white;
+}
+
+.destacado2 img{
+    width: 100px;
+    padding-bottom: 15px;
+}
+
+.destacado3{
+    height: 100%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    color: white;
+}
+
+.destacado3 img{
+    width: 100px;
+    padding-bottom: 15px;
+}
+
+.destacado4{
+    height: 100%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    color: white;
+}
+
+.destacado4 img{
+    width: 100px;
+    padding-bottom: 15px;
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: aliceblue;
+    padding: 15px;
+}
+
+.redes a img{
+    width: 25px;
+}
+
+@media (max-width: 600px){
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .logo{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .nav{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .banner{
+        width: 100%;
+    }
+
+    .destacado1{
+        height: 100%;
+        display: block;}
+
+    .destacado2{
+        height: 100%;
+        display: block;}
+
+    .destacado3{
+        height: 100%;
+        display: block;}
+
+    .destacado4{
+        height: 100%;
+        display: block;}
+}
