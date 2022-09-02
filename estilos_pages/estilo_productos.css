@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+}
+h1 span{
+    color: #fb7eff;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 15px;
+}
+
+body {
+    background: white;
+    color: rgb(112, 112, 112);
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+
+header {
+    /* para que esté horizontal */
+    display: flex;
+    /* para que se ordenen en una columna para celular*/
+    /* flex-direction: column; */
+    /* para que se alinea cada div en cada punta */
+    justify-content: space-between;
+    align-items: center;
+    height: 60ox;
+    background-color: white;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 70px;
+    margin-right: 10px;
+}
+
+nav a {
+    /* para hacerlo en negrita */
+    font-weight: 600;
+    padding-right: 10px;
+    color: grey;
+}
+
+nav a:hover {
+    color: #fb7eff;
+}
+
+a {
+    text-decoration: none;
+}
+
+#cabecera-productos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 500px;
+    color: white;
+
+    background-image: url('../assets/productos.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.items-productos{
+    background-color: rgb(35, 35, 35);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.items-productos .container-productos{
+    padding: 80px 12px;
+    display: block;
+}
+
+.items-productos .container-productos h2{
+    color: #fb7eff;
+    padding-bottom: 50px;
+    display: block;
+}
+
+.productos-productos{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 150px 30px 150px;
+}
+
+.items-productos .container-productos .carta{
+   
+    display: inline-block;
+    /* flex-direction: column; */
+    /* padding: 60px; */
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.items-productos .container-productos .carta img{
+    width: 200px;
+}
+
+.items-productos .container-productos .carta p{
+    /* margin-right: 20px; */
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+    width: 200px;
+}
+
+.container-excelencia{
+    width: 100%;
+    height: 300px;
+    padding-top: 60px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contener-imagen img{
+    width: 100px;
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(165, 165, 165);
+    padding: 15px;
+}
+
+.redes a img{
+    width: 25px;
+}

@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.font-size {
+    font-size: 70px;
+}
+
+.container-fluid{
+    justify-content: space-between;
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: aliceblue;
+    padding: 15px;
+    position: relative;
+    bottom: -150px;
+}
+
+.redes a img{
+    width: 25px;
+}
+
+.container-fluid{
+    position: relative;
+}
+
+.navbar-nav{
+    position: absolute;
+    right: 20px;
+}
+
+/* .titulo-contacto{
+    width: max-content;
+    position: absolute;
+    left: 500px;
+    top: 180px;
+    color: white;
+    font-size: 80px;
+} */
